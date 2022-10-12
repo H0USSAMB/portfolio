@@ -1,0 +1,233 @@
+.projects .h {
+text-align: center;
+margin-top: 130px;
+margin-bottom: 100px;
+font-family: 'Playfair Display';
+font-size: 48px;
+}
+.projects .h .line{
+    width: 150px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FDB935 ;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+.project1 .p-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150px;
+    margin-top: 50px;
+}
+.project1 .desc{
+margin-right: 250px;
+margin-left: -250px;
+}
+.project2 .p-p{
+
+    
+    border-radius: 5%;
+}
+.project2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.project3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project .desc{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 496px;
+height: 524px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.project .desc h2{
+    width: 406.68px;
+height: 60px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+color: #25282B;
+}
+.project .desc p{
+    width: 406.68px;
+height: 54px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #828282;
+}
+.project2 .desc p{
+    margin-top: 100px;
+}
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        .projects .h {
+            font-size: 30px;
+            }
+        .projects .h .line{
+             width: 120px;
+        }
+        .project1 .p-p{
+            width: 100px;
+        }
+        .project1 .p-p img{
+            width: 120px;
+        }
+        .project2 .p-p img{
+            width: 240px;
+        }
+        .project3 .p-p img{
+            width: 240px;
+        }
+        .project .desc{
+            width: 300px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .project1 .desc  h2, .project2 .desc  h2, .project3 .desc  h2 {
+            font-size: 25px;
+            width: 300px;
+            text-align: center;
+        }
+        .project1 .desc  p ,.project2 .desc  p ,.project3 .desc  p  {
+            font-size: 20px;
+            width: 280px;
+            text-align: center;
+        }
+        .project1 .desc ,.project2 .desc ,.project3 .desc  {
+            height: 300px;
+        }
+        .project3 .desc  {
+            height: 300px;
+            margin-bottom: 30px;
+        }
+        .project2 .desc {
+            margin-top: 30px;
+        }
+
+
+
+
+    }
+    @media only screen and (min-width: 400px) {
+        .project .p-p{
+            width: 300px;
+        }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .projects .h {
+            font-size: 30px;
+            }
+        .projects .h .line{
+             width: 120px;
+        }
+        .project1 .p-p{
+            width: 400px;
+        }
+        .project1 .p-p img{
+            width: 200px;
+        }
+        .project2 .p-p img{
+            width: 400px;
+        }
+        .project3 .p-p img{
+            width: 400px;
+        }
+        .project .desc{
+            width: 500px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .project1 .desc  h2, .project2 .desc  h2, .project3 .desc  h2 {
+            font-size: 30px;
+            width: 300px;
+            text-align: center;
+        }
+        .project1 .desc  p ,.project2 .desc  p ,.project3 .desc  p  {
+            font-size: 22px;
+            width: 400px;
+            text-align: center;
+        }
+        .project1 .desc ,.project2 .desc ,.project3 .desc  {
+            height: 300px;
+        }
+        .project3 .desc  {
+            height: 300px;
+            margin-bottom: 30px;
+        }
+        .project2 .desc {
+            margin-top: 30px;
+        }
+    
+    }
+    @media only screen and (min-width: 800px) {
+        .project .p-p{
+            width: 400px;
+        }
+
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .project1 .p-p {
+            margin-left: 50px;
+        }
+        .project .desc {
+            height: 520px;
+        }
+        .project2 .desc {
+            height: 530px;
+            margin-top: 0px;
+        }
+        .project2 .p-p  {
+            border: 0px solid rgb(255, 254, 254);
+        }
+        .project2 .p-p img {
+            height: 530px;
+            border-radius: 2%;
+        }
+        .project3 .p-p img {
+            height: 520px;
+            border-radius: 2%;
+        }
+        
+    } 
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      
+        
+    }

@@ -1,0 +1,142 @@
+.contact h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.contact .line {
+    height: 5px;
+    width: 100px;
+    background-color:#FDB935 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+.form_contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+margin-left: 36%;
+
+}
+.form_contact label {
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #25282B;
+}
+.form_contact input{
+    width: 400px;
+height: 40px;
+
+/* bg / white */
+
+background: #FFFFFF;
+border: 1px solid #E8ECF4;
+border-radius: 8px;
+}
+.form_contact textarea{
+    box-sizing: border-box;
+
+width: 400px;
+height: 160px;
+
+/* bg / white */
+
+background: #FFFFFF;
+border: 1px solid #E8ECF4;
+border-radius: 8px;
+resize: none;
+}
+.form_contact button{
+    display: flex;
+flex-direction: row;
+padding: 8px 24px;
+width: 89px;
+height: 43px;
+/* brand / yellow */
+background: #FDC435;
+border-radius: 8px;
+margin-left: 310px;
+margin-top: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+}
+@media only screen and (max-width: 600px) {
+    .form_contact{
+        width: 50%;
+    margin-left: 5%;
+    
+    }
+    .form_contact input{
+        width: 300px;
+    }
+    .form_contact textarea{
+    width: 300px;
+    }
+    .form_contact button{
+    padding: 8px 14px;
+    width: 69px;
+    height: 43px;
+    /* brand / yellow */
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 140%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .form_contact{
+        width: 50%;
+    margin-left: 5%;
+    
+    }
+    .form_contact button{
+        margin-left: 0px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .form_contact{
+        width: 50%;
+    margin-left: 25%;
+    
+    }
+    .form_contact button{
+        margin-left: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .form_contact{
+        width: 60%;
+    margin-left: 35%;
+    
+    }
+    .form_contact button{
+        margin-left: 0px;
+        font-size: 14px;
+        padding: 8px 24px;
+
+width: 89px;
+height: 43px;
+
+/* brand / yellow */
+
+background: #FDC435;
+border-radius: 8px;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

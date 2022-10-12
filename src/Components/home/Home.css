@@ -1,0 +1,192 @@
+.container{
+    margin-top: 6.25em;
+    display: flex;
+    position: relative;
+    
+    
+}
+.right{
+    position: absolute;
+    width: 48.5625em;
+    height: 54.8125em;
+    right: -4.125em;
+    bottom: 4.125em;
+    
+}
+.right img{
+    width: 800px;
+}
+.left{
+    width: 31.875em;
+    margin-left: 12.5em;
+    position: relative;
+    top: -3.125em;
+}
+.left .top-p{
+    height: 1.6875em;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 1.25em;
+line-height: 1.6875em;
+text-transform: uppercase;
+color: #FDC435;
+
+}
+.left h1{
+width: 486px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 4em;
+line-height: 120%;
+color: #333333;
+}
+.left h1 span{
+    color: #FDC435;
+}
+.left .bottom-p{
+    height: 4.5em;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 2.25em;
+    /* or 150% */
+    
+    
+    /* Gray 3 */
+    
+    color: #828282;
+}
+
+.left .btn-pt{
+    width: 7.1875em;
+    height: 2.6875em;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 150%;
+background: #FDC435;
+border-radius: 0.5em;
+margin-right: 0.625em;
+}
+.left .btn-lk{
+    width: 7.1875em;
+    height: 2.6875em;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 1.125em;
+line-height: 150%;
+border-radius:  0.5em;
+color: #25282B;
+}
+.icons{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icons .icon1{
+    position: relative;
+    top: -3px;
+    margin-right: 1.5em;
+}
+@media (min-width: 1440px) {
+    .right{
+        
+        right: -10.125em;
+
+    }
+}
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .right{
+        display: none;
+    }
+    .left .top-p{
+    font-size: 15px;
+    }
+    .left{
+        position: relative;
+        top: -3.125em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .left h1{
+        width: 100%;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        color: #333333;
+        }
+        .left .bottom-p{
+            height: 4.5em;
+        margin-top: 0.5em;
+        margin-bottom: 1.9em;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5em;
+            line-height: 1.5em;
+        }
+        .left .btn-pt{
+            width: 70px;
+            height: 35px;
+            font-size: 15px;
+
+            
+        }
+        .left .btn-lk{
+            width: 70px;
+            height: 35px;
+            font-size: 15px;
+        
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .right{
+        display: none;
+    }
+    .left{
+        margin-left: 10px;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .right{
+        display: none;
+    }
+    .left{
+        margin-left: 100px;
+    }}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .right{
+        display: none;
+    }} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ .left{
+        margin-left: 100px;
+        
+    }
+    .right{
+        display: block;
+    }
+    
+}

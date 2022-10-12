@@ -1,0 +1,312 @@
+.container-a{
+    margin-top: 10.25em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.left-a{
+    width: 588px;
+    margin-right: 100px;
+}
+.left-a h2 {
+    height: 62px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 130%;
+/* or 62px */
+color: #333333;
+margin-top: 100px;
+margin-bottom: 40px;
+}
+.left-a .top-p-a{
+    
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 150%;
+color: #4D4D4D;
+margin-bottom: 20px;
+}
+.left-a .center-p-about , .bottom-p-about , .p-b-a{
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #8A8A8A;
+    margin-bottom: 20px;    
+}
+.left-a span{
+   color: #FDB935;
+}
+
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .right-a .des {
+        display: none;
+       
+    }
+    .left-a{
+        width: 588px;
+        margin-right: 0px;
+    }
+    .left-a h2 {
+    height: 0px;  
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    }
+    .left-a .top-p-a{
+        width: 213px;
+        position: relative;
+        left: 31px;
+        font-family: 'Nunito';
+        font-size: 15px;
+        margin-top: 90px;
+        }
+    .left-a .center-p-about , .bottom-p-about , .p-b-a{
+        margin-left: 30px;
+        width: 239px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 150%;   
+        }
+    .right-a .mob{
+        width: 150px;
+    }
+    .right-a{
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        top: 20px;
+        
+    }
+    .container-a{
+        margin-top: 0px;
+    }
+    .line-ab{
+        width: 80px;
+        height: 2px;
+        background-color: #FDB935;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+    .About button {
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 20px;
+width: 98px;
+height: 34px;
+background: #FDC435;
+border-radius: 8px;
+margin-left: 40px;
+margin-top: -10px;
+justify-content: space-between;
+font-size: 14px;
+    }
+    .About button img {
+        width: 15px;
+        margin-left: 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        .right-a .des {
+            display: none;
+           
+        }
+        .left-a{
+            width: 588px;
+            margin-right: 0px;
+        }
+        .left-a h2 {
+        height: 0px;  
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+        }
+        .left-a .top-p-a{
+            width: 413px;
+            position: relative;
+            left: 50px;
+            font-family: 'Nunito';
+            font-size: 20px;
+            margin-top: 90px;
+            }
+        .left-a .center-p-about , .bottom-p-about , .p-b-a{
+            margin-left: 50px;
+            width: 400px;
+            height: 50px;
+            font-size: 17px;
+            line-height: 150%;   
+            }
+        .right-a .mob{
+            width: 200px;
+        }
+        .right-a{
+            position: absolute;
+            z-index: -1;
+            right: 0px;
+            top: 10px;
+            
+        }
+        .container-a{
+            margin-top: 0px;
+        }
+        .line-ab{
+            width: 100px;
+            height: 5px;
+            background-color: #FDB935;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3px;
+        }
+        .About button {
+            display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+    width: 98px;
+    height: 34px;
+    background: #FDC435;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    justify-content: space-between;
+    font-size: 14px;
+        }
+        .About button img {
+            width: 15px;
+            margin-left: 5px;
+        }
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .right-a .mob {
+        display: none;
+       
+    }
+    .right-a .des {
+        display: block;
+       
+    }
+    .left-a{
+        width: 588px;
+        margin-right: 0px;
+    }
+    .left-a h2 {
+    height: 0px;  
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    }
+    .left-a .top-p-a{
+        width: 413px;
+        position: relative;
+        left: 50px;
+        font-family: 'Nunito';
+        font-size: 20px;
+        margin-top: 90px;
+        }
+    .left-a .center-p-about , .bottom-p-about , .p-b-a{
+        margin-left: 50px;
+        width: 400px;
+        height: 50px;
+        font-size: 17px;
+        line-height: 150%;   
+        }
+    .right-a .mob{
+        width: 200px;
+    }
+    .right-a{
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        top: 10px;
+        
+    }
+    .container-a{
+        margin-top: 0px;
+    }
+    .line-ab{
+        width: 100px;
+        height: 5px;
+        background-color: #FDB935;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+    .About button {
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 20px;
+width: 98px;
+height: 34px;
+background: #FDC435;
+border-radius: 8px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -10px;
+justify-content: space-between;
+font-size: 14px;
+    }
+    .About button img {
+        width: 15px;
+        margin-left: 5px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+    .container-a {
+        margin-top: 20.25em;
+    }
+    .left-a {
+        margin-right: 600px;
+    }
+    .right-a{
+        top : -100px
+    }
+    .About button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 20px;
+        width: 128px;
+        height: 44px;
+        background: #FDC435;
+        border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .About button img {
+        width: 20px;
+        margin-left: 5px;
+    }
+}
